@@ -26,23 +26,27 @@
 
 <br/>
 
-<!-- MAIN PROFILE HERO CARD WITH OFFICIAL 3D MEW CAT MASCOT -->
-<table width="100%">
+<!-- MAIN PROFILE HERO SECTION (2x2 CYBER GRID MATCHING USER MOCKUP) -->
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
   <tr>
+    <!-- TOP LEFT: MAIN PROFILE CARD -->
     <td width="58%" valign="top">
-
-### › Hey there! I'm Vaishnavi Kamthe <img src="./assets/emojis/aurora_sparkle.svg" height="38" valign="middle" />
-
-#### **Forward Deployed AI Engineer | Multi-Agent Systems & ML Solutions**
-*BCA @ Amity University (Class of 2026) | Mumbai, India*
-
-<img src="./assets/emojis/neon_gradient_star.svg" height="32" valign="middle" /> **Top 50 Achiever - APAC Gen AI Academy 2026 (Google)**
-
-I specialize in architecting production-grade multi-agent systems, agentic workflows, and reinforcement learning applications. From rapid prototypes to enterprise-ready deployments, I build AI solutions with hierarchical delegation, self-reflection, and tool-calling orchestration.
-
-Currently working as an **AI Intern at WeIntern** building real-world ML systems and legacy infrastructure integrations.
-
-<br/>
+      <sub><font color="#DA9EE2"><b>✦ MAIN PROFILE</b></font></sub>
+      <h3>› Hey there! I'm Vaishnavi Kamthe <img src="./assets/emojis/aurora_sparkle.svg" height="34" valign="middle" /></h3>
+      <h4><b>Forward Deployed AI Engineer | Multi-Agent Systems &amp; ML Solutions</b></h4>
+      <hr style="border: 0; border-top: 1px solid rgba(192, 132, 252, 0.3); margin: 10px 0;" />
+      <p>I specialize in architecting production-grade multi-agent systems, agentic workflows, and reinforcement learning applications. From rapid prototypes to enterprise-ready deployments, I build AI solutions with hierarchical delegation, self-reflection, and tool-calling orchestration.</p>
+      <p>Currently working as an <b>AI Intern at WeIntern</b> building real-world ML systems and legacy infrastructure integrations.</p>
+    </td>
+    <!-- TOP RIGHT: MASCOT CARD -->
+    <td width="42%" align="center" valign="top">
+      <img src="./assets/mascot_framed_card.png" width="98%" alt="3D CRT Mew Cat Mascot Card" />
+    </td>
+  </tr>
+  <tr>
+    <!-- BOTTOM LEFT: SYSTEM TERMINAL CARD -->
+    <td width="58%" valign="top">
+      <sub><font color="#DA9EE2"><b>✦ SYSTEM TERMINAL</b></font></sub>
 
 ```gcode
 [SYSTEM WARNING]
@@ -54,15 +58,12 @@ Currently working as an **AI Intern at WeIntern** building real-world ML systems
 [RECOVERY COMPLETE] > identity_restored()
 ```
 
-  </td>
-  <td width="42%" align="center" valign="top">
-    <!-- OFFICIAL MASCOT: 3D CRT GLOWING MEW CAT -->
-    <img src="./assets/mascot_3d_mew.png" width="80%" alt="Official 3D CRT Mew Cat Mascot" />
-    <br/>
-    <!-- HOLOGRAPHIC TECH SPECIFICATION MODULE -->
-    <img src="./assets/mascot_tech_spec.png" width="95%" style="border-radius: 12px; margin-top: 10px;" alt="Holographic Tech Spec Card" />
-  </td>
-</tr>
+    </td>
+    <!-- BOTTOM RIGHT: KEY ACCOLADES & STATS CARD -->
+    <td width="42%" align="center" valign="top">
+      <img src="./assets/mascot_accolades_card.png" width="98%" alt="Key Accolades & Stats Card" />
+    </td>
+  </tr>
 </table>
 
 <!-- SMOOTH GLOW WAVE DIVIDER -->
