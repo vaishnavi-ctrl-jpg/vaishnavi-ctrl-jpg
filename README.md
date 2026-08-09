@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- TOP HEADER BANNER (ALL CAPS LARGE FONT BANNER) -->
-  <img src="./assets/header_banner_capital.jpg" width="100%" alt="Vaishnavi Kamthe Header Banner" style="border-radius: 10px;" />
+  <!-- TOP HEADER BANNER (PHANTOMS CYBER-GOTHIC CHROME LOGO BANNER) -->
+  <img src="./assets/header_banner_phantoms.jpg" width="100%" alt="Vaishnavi Kamthe Header Banner" style="border-radius: 10px;" />
 
   <br/><br/>
 
