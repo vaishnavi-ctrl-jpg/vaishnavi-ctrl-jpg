@@ -177,5 +177,5 @@ Currently working as an **AI Intern at WeIntern** building real-world ML systems
 <br/>
 
 <div align="center">
-  <img src="./assets/emojis/aurora_sparkle.svg" height="30" valign="middle" /> &nbsp; <b>Designed &amp; built by Vaishnavi Kamthe</b> (<a href="https://github.com/vaishnavi-ctrl-jpg">vaishnavi-ctrl-jpg</a>) &nbsp; <img src="./assets/emojis/aurora_sparkle.svg" height="30" valign="middle" />
+  <img src="./assets/emojis/aurora_sparkle.svg" height="30" valign="middle" /> &nbsp; <b>Designed &amp; built by Vaishnavi Kamthe</b> (<a href="https://github.com/vaishnavi-ctrl-jpg" style="color: #DA9EE2; text-decoration: none; font-weight: bold;">vaishnavi-ctrl-jpg</a>) &nbsp; <img src="./assets/emojis/aurora_sparkle.svg" height="30" valign="middle" />
 </div>
