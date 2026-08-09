@@ -177,5 +177,5 @@ Currently working as an **AI Intern at WeIntern** building real-world ML systems
 <br/>
 
 <div align="center">
-  <sub><img src="./assets/emojis/aurora_sparkle.svg" height="20" valign="middle" /> Crafted with ⚡ &amp; CRT Glitch Aesthetics for <b>Vaishnavi Kamthe (vaishnavi-ctrl-jpg)</b> <img src="./assets/emojis/aurora_sparkle.svg" height="20" valign="middle" /></sub>
+  <img src="./assets/emojis/aurora_sparkle.svg" height="30" valign="middle" /> &nbsp; <b>Designed &amp; built by Vaishnavi Kamthe</b> (<a href="https://github.com/vaishnavi-ctrl-jpg">vaishnavi-ctrl-jpg</a>) &nbsp; <img src="./assets/emojis/aurora_sparkle.svg" height="30" valign="middle" />
 </div>
