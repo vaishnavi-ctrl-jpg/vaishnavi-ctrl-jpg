@@ -109,42 +109,42 @@ Currently working as an **AI Intern at WeIntern** building real-world ML systems
 
 <div align="center">
 
-  <!-- LANGUAGES & MULTI-AGENT -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <!-- LANGUAGES (HOLOGRAM 2 OPTION 2 DARK CYBER SLATE) -->
+  <img src="https://img.shields.io/badge/Python-181524?style=for-the-badge&logo=python&logoColor=F7C3DB&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/JavaScript-181524?style=for-the-badge&logo=javascript&logoColor=EFB5E3&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-181524?style=for-the-badge&logo=go&logoColor=DA9EE2&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-181524?style=for-the-badge&logo=openjdk&logoColor=B07EF0&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-181524?style=for-the-badge&logo=c%2B%2B&logoColor=CF76E0&color=181524" />
 
   <br/><br/>
 
   <!-- AI & ML FRAMEWORKS -->
-  <img src="https://img.shields.io/badge/PyTorch-FFC0CB?style=for-the-badge&logo=pytorch&logoColor=black" />
+  <img src="https://img.shields.io/badge/PyTorch-181524?style=for-the-badge&logo=pytorch&logoColor=F7C3DB&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-181524?style=for-the-badge&logo=tensorflow&logoColor=EFB5E3&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-181524?style=for-the-badge&logo=fastapi&logoColor=DA9EE2&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-181524?style=for-the-badge&logo=nextdotjs&logoColor=B07EF0&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-181524?style=for-the-badge&logo=react&logoColor=CF76E0&color=181524" />
 
   <br/><br/>
 
   <!-- AI APIS & CLOUD -->
-  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini_API-181524?style=for-the-badge&logo=googlegemini&logoColor=F7C3DB&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI_API-181524?style=for-the-badge&logo=openai&logoColor=EFB5E3&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-181524?style=for-the-badge&logo=googlecloud&logoColor=DA9EE2&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-181524?style=for-the-badge&logo=docker&logoColor=B07EF0&color=181524" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Git-FFC0CB?style=for-the-badge&logo=git&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-181524?style=for-the-badge&logo=git&logoColor=CF76E0&color=181524" />
 
 </div>
 
