@@ -5,21 +5,21 @@
 
   <br/><br/>
 
-  <!-- NAVIGATION BUTTONS / BADGES -->
+  <!-- NAVIGATION BUTTONS / BADGES (HOLOGRAM 2 OPTION 6 IRIDESCENT PASTEL LUXE) -->
   <a href="https://github.com/vaishnavi-ctrl-jpg">
-    <img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logoColor=white&color=0d1117" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-EFB5E3?style=for-the-badge&logo=globe&logoColor=181825" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://linkedin.com/in/vaishnavi-kamthe-b9417a2b4">
-    <img src="https://img.shields.io/badge/in_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/in_LINKEDIN-CF76E0?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:vaish14072005@gmail.com">
-    <img src="https://img.shields.io/badge/M_GMAIL-FFC0CB?style=for-the-badge&logo=gmail&logoColor=black" alt="Gmail" />
+    <img src="https://img.shields.io/badge/M_GMAIL-F7EEFA?style=for-the-badge&logo=gmail&logoColor=181825" alt="Gmail" />
   </a>
   &nbsp;
   <a href="#">
-    <img src="https://img.shields.io/badge/RESUME-21262D?style=for-the-badge&logoColor=white" alt="Resume" />
+    <img src="https://img.shields.io/badge/RESUME-B07EF0?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Resume" />
   </a>
 
 </div>
