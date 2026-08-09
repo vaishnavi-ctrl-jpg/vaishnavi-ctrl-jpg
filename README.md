@@ -55,11 +55,9 @@ Currently working as an **AI Intern at WeIntern** building real-world ML systems
 ```
 
   </td>
-  <td width="42%" align="center" valign="middle">
+  <td width="40%" align="center" valign="middle">
     <!-- OFFICIAL MASCOT: 3D CRT GLOWING MEW CAT (TRANSPARENT PNG) -->
-    <img src="./assets/mascot_3d_mew.png" width="90%" alt="Official 3D CRT Mew Cat Mascot" />
-    <br/>
-    <img src="./assets/identity_poster.jpg" width="85%" style="border-radius: 12px; margin-top: 10px;" alt="Identity Poster" />
+    <img src="./assets/mascot_3d_mew.png" width="95%" alt="Official 3D CRT Mew Cat Mascot" />
   </td>
 </tr>
 </table>
