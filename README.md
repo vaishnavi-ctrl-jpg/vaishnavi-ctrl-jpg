@@ -57,7 +57,7 @@ Currently working as an **AI Intern at WeIntern** building real-world ML systems
   </td>
   <td width="42%" align="center" valign="top">
     <!-- OFFICIAL MASCOT: 3D CRT GLOWING MEW CAT -->
-    <img src="./assets/mascot_3d_mew.png" width="75%" alt="Official 3D CRT Mew Cat Mascot" />
+    <img src="./assets/mascot_3d_mew.png" width="80%" alt="Official 3D CRT Mew Cat Mascot" />
     <br/>
     <!-- HOLOGRAPHIC TECH SPECIFICATION MODULE -->
     <img src="./assets/mascot_tech_spec.png" width="95%" style="border-radius: 12px; margin-top: 10px;" alt="Holographic Tech Spec Card" />
