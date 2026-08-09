@@ -26,45 +26,8 @@
 
 <br/>
 
-<!-- MAIN PROFILE HERO SECTION (2x2 CYBER GRID MATCHING USER MOCKUP) -->
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-  <tr>
-    <!-- TOP LEFT: MAIN PROFILE CARD -->
-    <td width="58%" valign="top">
-      <sub><font color="#DA9EE2"><b>✦ MAIN PROFILE</b></font></sub>
-      <h3>› Hey there! I'm Vaishnavi Kamthe <img src="./assets/emojis/aurora_sparkle.svg" height="34" valign="middle" /></h3>
-      <h4><b>Forward Deployed AI Engineer | Multi-Agent Systems &amp; ML Solutions</b></h4>
-      <hr style="border: 0; border-top: 1px solid rgba(192, 132, 252, 0.3); margin: 10px 0;" />
-      <p>I specialize in architecting production-grade multi-agent systems, agentic workflows, and reinforcement learning applications. From rapid prototypes to enterprise-ready deployments, I build AI solutions with hierarchical delegation, self-reflection, and tool-calling orchestration.</p>
-      <p>Currently working as an <b>AI Intern at WeIntern</b> building real-world ML systems and legacy infrastructure integrations.</p>
-    </td>
-    <!-- TOP RIGHT: MASCOT CARD -->
-    <td width="42%" align="center" valign="top">
-      <img src="./assets/mascot_framed_card.png" width="98%" alt="3D CRT Mew Cat Mascot Card" />
-    </td>
-  </tr>
-  <tr>
-    <!-- BOTTOM LEFT: SYSTEM TERMINAL CARD -->
-    <td width="58%" valign="top">
-      <sub><font color="#DA9EE2"><b>✦ SYSTEM TERMINAL</b></font></sub>
-
-```gcode
-[SYSTEM WARNING]
-// Memory Thread: active
-// Identity: Vaishnavi Kamthe | Google APAC GenAI Top 50
-// Mascot Companion: 3D CRT Mew Cat online ✦
-// echo("who are you?") -> vaishnavi-ctrl-jpg
-[CRITICAL FAULT 078]: perception overflow
-[RECOVERY COMPLETE] > identity_restored()
-```
-
-    </td>
-    <!-- BOTTOM RIGHT: KEY ACCOLADES & STATS CARD -->
-    <td width="42%" align="center" valign="top">
-      <img src="./assets/mascot_accolades_card.png" width="98%" alt="Key Accolades & Stats Card" />
-    </td>
-  </tr>
-</table>
+<!-- MAIN PROFILE HERO BENTO GRID (ULTRA-HIGH-DPI GLOWING GLASSMORPHISM CARDS) -->
+<img src="./assets/hero_bento_grid.png" width="100%" alt="Vaishnavi Kamthe Profile Hero Bento Grid" style="border-radius: 18px;" />
 
 <!-- SMOOTH GLOW WAVE DIVIDER -->
 <img src="./assets/smooth_glow_wave_1.png" width="100%" />
