@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- TOP HEADER BANNER (ULTRA CLEAN V3 BANNER WITH ZERO GLITTER) -->
-  <img src="./assets/header_banner_clean_v3.jpg" width="100%" alt="Vaishnavi Kamthe Header Banner" style="border-radius: 10px;" />
+  <!-- TOP HEADER BANNER (ALL CAPS LARGE FONT BANNER) -->
+  <img src="./assets/header_banner_capital.jpg" width="100%" alt="Vaishnavi Kamthe Header Banner" style="border-radius: 10px;" />
 
   <br/><br/>
 
