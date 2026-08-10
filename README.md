@@ -27,7 +27,7 @@
 <br/>
 
 <!-- MAIN PROFILE HERO BENTO GRID (ULTRA-HIGH-DPI GLOWING GLASSMORPHISM CARDS) -->
-<img src="./assets/hero_bento_grid.png" width="100%" alt="Vaishnavi Kamthe Profile Hero Bento Grid" style="border-radius: 18px;" />
+<img src="./assets/hero_bento_grid_hologram2.png" width="100%" alt="Vaishnavi Kamthe Profile Hero Bento Grid" style="border-radius: 18px;" />
 
 <!-- SMOOTH GLOW WAVE DIVIDER -->
 <img src="./assets/smooth_glow_wave_1.png" width="100%" />
