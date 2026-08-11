@@ -120,7 +120,14 @@
 
 <br/>
 
-## <img src="./assets/emojis/plasma_bolt.svg" height="34" valign="middle" /> **GitHub Analytics & Visual Card**
+## <img src="./assets/emojis/plasma_bolt.svg" height="34" valign="middle" /> **GitHub Analytics & Streak Stats**
+
+<!-- GITHUB STREAK STATS CARD IN HOLOGRAM 2 PALETTE -->
+<div align="center">
+  <img src="./assets/github_streak_stats.png" width="100%" alt="Vaishnavi's GitHub Streak Stats" style="border-radius: 14px;" />
+</div>
+
+<br/>
 
 <table width="100%">
   <tr>
