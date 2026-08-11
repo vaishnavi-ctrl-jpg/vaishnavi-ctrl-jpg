@@ -122,10 +122,10 @@
 
 ## <img src="./assets/emojis/plasma_bolt.svg" height="34" valign="middle" /> **GitHub Analytics & Streak Stats**
 
-<!-- LIVE DYNAMIC AUTOMATED STREAK STATS WIDGET (UPDATES REAL-TIME WITH GITHUB ACTIVITY) -->
+<!-- 100% RELIABLE HIGH-DPI STREAK STATS CARD (ZERO API RATE-LIMIT ERRORS) -->
 <p align="center">
   <a href="https://github.com/vaishnavi-ctrl-jpg">
-    <img src="https://streak-stats.demolab.com/?user=vaishnavi-ctrl-jpg&theme=dark&background=181524&border=DA9EE2&stroke=DA9EE2&ring=B07EF0&fire=F7C3DB&currStreakNum=EFB5E3&sideNums=F7EEFA&sideLabels=DA9EE2&dates=B07EF0&currStreakLabel=DA9EE2" width="100%" alt="Vaishnavi's Live GitHub Streak Stats" />
+    <img src="./assets/github_streak_stats.png" width="100%" alt="Vaishnavi's GitHub Streak Stats" style="border-radius: 14px;" />
   </a>
 </p>
 
