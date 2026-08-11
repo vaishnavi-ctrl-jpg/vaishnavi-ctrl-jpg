@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380">
+  <defs>
+    <!-- GLASSMORPHISM DARK CYBER SLATE GRADIENT -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181524" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0F0C18" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- NEON PINK TO PURPLE BORDER GRADIENT -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DA9EE2"/>
+      <stop offset="50%" stop-color="#F7C3DB"/>
+      <stop offset="100%" stop-color="#B07EF0"/>
+    </linearGradient>
+
+    <!-- SWEEPING GLIMMER LASER GRADIENT -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DA9EE2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#B07EF0" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- CSS KEYFRAME ANIMATIONS -->
+    <style>
+      .card-border {
+        animation: borderPulse 4s ease-in-out infinite alternate;
+      }
+      .flame-icon {
+        transform-origin: 500px 90px;
+        animation: flameBounce 1.8s ease-in-out infinite alternate;
+      }
+      .flame-ring {
+        transform-origin: 500px 150px;
+        animation: ringRotate 8s linear infinite;
+      }
+      .laser-sweep {
+        animation: laserMove 3.5s ease-in-out infinite;
+      }
+      .glow-text {
+        text-shadow: 0 0 12px rgba(247, 195, 219, 0.6);
+      }
+
+      @keyframes borderPulse {
+        0% { stroke-opacity: 0.5; }
+        100% { stroke-opacity: 1; filter: drop-shadow(0 0 8px #DA9EE2); }
+      }
+      @keyframes flameBounce {
+        0% { transform: scale(1) translateY(0); }
+        100% { transform: scale(1.15) translateY(-4px); filter: drop-shadow(0 0 10px #FF77BC); }
+      }
+      @keyframes ringRotate {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 360; }
+      }
+      @keyframes laserMove {
+        0% { transform: translateX(-1000px); }
+        100% { transform: translateX(1000px); }
+      }
+    </style>
+  </defs>
+
+  <!-- MAIN CARD BACKGROUND -->
+  <rect x="10" y="10" width="980" height="360" rx="28" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="3" class="card-border"/>
+
+  <!-- SWEEPING ANIMATED LASER SHIMMER -->
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="10" width="300" height="360" fill="url(#laserGrad)" class="laser-sweep" opacity="0.3"/>
+  </g>
+
+  <!-- COLUMN DIVIDERS -->
+  <line x1="330" y1="50" x2="330" y2="330" stroke="#DA9EE2" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="670" y1="50" x2="670" y2="330" stroke="#DA9EE2" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- COLUMN 1: TOTAL CONTRIBUTIONS -->
+  <text x="170" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="64" fill="#F7EEFA" text-anchor="middle" class="glow-text">326</text>
+  <text x="170" y="210" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="28" fill="#DA9EE2" text-anchor="middle">Total Contributions</text>
+  <text x="170" y="270" font-family="'Segoe UI', sans-serif" font-size="22" fill="#B07EF0" text-anchor="middle">Aug 2025 - Present</text>
+
+  <!-- COLUMN 2: CURRENT STREAK (ANIMATED FLAME & RING) -->
+  <g class="flame-ring">
+    <circle cx="500" cy="150" r="75" fill="none" stroke="#B07EF0" stroke-width="8" stroke-dasharray="300 60"/>
+  </g>
+  
+  <!-- ANIMATED FLAME ICON -->
+  <g class="flame-icon">
+    <path d="M500 80 C515 105 530 115 530 135 C530 155 515 170 500 170 C485 170 470 155 470 135 C470 115 485 105 500 80 Z" fill="#FF77BC"/>
+    <path d="M500 110 C508 123 516 130 516 142 C516 153 508 160 500 160 C492 160 484 153 484 142 C484 130 492 123 500 110 Z" fill="#F7C3DB"/>
+  </g>
+
+  <text x="500" y="160" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="64" fill="#EFB5E3" text-anchor="middle" class="glow-text">3</text>
+  <text x="500" y="255" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="28" fill="#F7C3DB" text-anchor="middle">Current Streak</text>
+  <text x="500" y="300" font-family="'Segoe UI', sans-serif" font-size="22" fill="#B07EF0" text-anchor="middle">Aug 8 - Aug 10</text>
+
+  <!-- COLUMN 3: LONGEST STREAK -->
+  <text x="830" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="64" fill="#F7EEFA" text-anchor="middle" class="glow-text">4</text>
+  <text x="830" y="210" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="28" fill="#DA9EE2" text-anchor="middle">Longest Streak</text>
+  <text x="830" y="270" font-family="'Segoe UI', sans-serif" font-size="22" fill="#B07EF0" text-anchor="middle">Apr 17 - Apr 20</text>
+</svg>
