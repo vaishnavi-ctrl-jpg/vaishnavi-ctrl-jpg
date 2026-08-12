@@ -122,10 +122,10 @@
 
 ## <img src="./assets/emojis/plasma_bolt.svg" height="34" valign="middle" /> **GitHub Analytics & Streak Stats**
 
-<!-- HIGH-DPI ANIMATED GIF STREAK STATS CARD (GUARANTEED 100% GITHUB MARKDOWN COMPATIBILITY) -->
+<!-- 100% RELIABLE CLEAN HIGH-DPI STREAK STATS CARD -->
 <p align="center">
   <a href="https://github.com/vaishnavi-ctrl-jpg">
-    <img src="./assets/github_streak_stats_firepop.gif" width="100%" alt="Vaishnavi's Animated Streak Stats" style="border-radius: 14px;" />
+    <img src="./assets/github_streak_stats.png" width="100%" alt="Vaishnavi's GitHub Streak Stats" style="border-radius: 14px;" />
   </a>
 </p>
 
