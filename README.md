@@ -122,10 +122,10 @@
 
 ## <img src="./assets/emojis/plasma_bolt.svg" height="34" valign="middle" /> **GitHub Analytics & Streak Stats**
 
-<!-- LOADER SPIN -> FIRE POP -> CONFETTI BURST STREAK STATS CARD -->
+<!-- HIGH-DPI ANIMATED GIF STREAK STATS CARD (GUARANTEED 100% GITHUB MARKDOWN COMPATIBILITY) -->
 <p align="center">
   <a href="https://github.com/vaishnavi-ctrl-jpg">
-    <img src="./assets/github_streak_stats_firepop.svg" width="100%" alt="Vaishnavi's Streak Stats (Loader Spin -> Fire Pop -> Confetti Burst)" />
+    <img src="./assets/github_streak_stats_firepop.gif" width="100%" alt="Vaishnavi's Animated Streak Stats" style="border-radius: 14px;" />
   </a>
 </p>
 
