@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380">
+  <defs>
+    <!-- GLASSMORPHISM DARK CYBER SLATE GRADIENT -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181524" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0F0C18" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- NEON PINK TO PURPLE BORDER GRADIENT -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DA9EE2"/>
+      <stop offset="50%" stop-color="#F7C3DB"/>
+      <stop offset="100%" stop-color="#B07EF0"/>
+    </linearGradient>
+
+    <!-- SUBTLE SHINE GLOW ANIMATION -->
+    <style>
+      .card-border {
+        animation: borderPulse 4s ease-in-out infinite alternate;
+      }
+      .flame-glow {
+        animation: flamePulse 2s ease-in-out infinite alternate;
+      }
+      .glow-text {
+        text-shadow: 0 0 10px rgba(247, 195, 219, 0.5);
+      }
+
+      @keyframes borderPulse {
+        0% { stroke-opacity: 0.6; }
+        100% { stroke-opacity: 1; filter: drop-shadow(0 0 8px #DA9EE2); }
+      }
+      @keyframes flamePulse {
+        0% { transform: scale(1); transform-origin: 500px 58px; }
+        100% { transform: scale(1.12); transform-origin: 500px 58px; filter: drop-shadow(0 0 8px #FF77BC); }
+      }
+    </style>
+  </defs>
+
+  <!-- MAIN CARD BACKGROUND -->
+  <rect x="10" y="10" width="980" height="360" rx="24" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5" class="card-border"/>
+
+  <!-- SOLID COLUMN DIVIDERS -->
+  <line x1="330" y1="45" x2="330" y2="335" stroke="#DA9EE2" stroke-opacity="0.25" stroke-width="1.5"/>
+  <line x1="670" y1="45" x2="670" y2="335" stroke="#DA9EE2" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- COLUMN 1: TOTAL CONTRIBUTIONS -->
+  <text x="170" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="60" fill="#F7EEFA" text-anchor="middle" class="glow-text">326</text>
+  <text x="170" y="210" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="26" fill="#DA9EE2" text-anchor="middle">Total Contributions</text>
+  <text x="170" y="270" font-family="'Segoe UI', sans-serif" font-size="20" fill="#B07EF0" text-anchor="middle">Aug 2025 - Present</text>
+
+  <!-- COLUMN 2: CURRENT STREAK (EXACT MATCH TO ORIGINAL MOCKUP) -->
+  <!-- Outer Clean Circle Ring -->
+  <circle cx="500" cy="132" r="62" fill="none" stroke="#B07EF0" stroke-width="6"/>
+
+  <!-- Flame Icon Badge sitting on top of the circle -->
+  <g class="flame-glow">
+    <circle cx="500" cy="62" r="22" fill="#181524" stroke="#DA9EE2" stroke-width="2"/>
+    <path d="M500 48 C509 63 518 70 518 80 C518 92 509 100 500 100 C491 100 482 92 482 80 C482 70 491 63 500 48 Z" fill="#FF77BC"/>
+    <path d="M500 66 C505 75 510 79 510 86 C510 93 505 97 500 97 C495 97 490 93 490 86 C490 79 495 75 500 66 Z" fill="#F7C3DB"/>
+  </g>
+
+  <!-- Streak Number inside Circle -->
+  <text x="500" y="152" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="58" fill="#EFB5E3" text-anchor="middle" class="glow-text">3</text>
+
+  <!-- Labels under Circle -->
+  <text x="500" y="245" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="28" fill="#F7C3DB" text-anchor="middle">Current Streak</text>
+  <text x="500" y="295" font-family="'Segoe UI', sans-serif" font-size="20" fill="#B07EF0" text-anchor="middle">Aug 8 - Aug 10</text>
+
+  <!-- COLUMN 3: LONGEST STREAK -->
+  <text x="830" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="60" fill="#F7EEFA" text-anchor="middle" class="glow-text">4</text>
+  <text x="830" y="210" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="26" fill="#DA9EE2" text-anchor="middle">Longest Streak</text>
+  <text x="830" y="270" font-family="'Segoe UI', sans-serif" font-size="20" fill="#B07EF0" text-anchor="middle">Apr 17 - Apr 20</text>
+</svg>
