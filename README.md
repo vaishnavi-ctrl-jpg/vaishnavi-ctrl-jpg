@@ -122,10 +122,10 @@
 
 ## <img src="./assets/emojis/plasma_bolt.svg" height="34" valign="middle" /> **GitHub Analytics & Streak Stats**
 
-<!-- EXACT CONFETTI ANIMATED STREAK STATS CARD -->
+<!-- EXACT CONFETTI SVG STREAK STATS CARD FROM COMMIT 9c4bf41 -->
 <p align="center">
   <a href="https://github.com/vaishnavi-ctrl-jpg">
-    <img src="./assets/github_streak_stats_confetti.gif" width="100%" alt="Vaishnavi's GitHub Streak Stats" style="border-radius: 14px;" />
+    <img src="./assets/github_streak_stats_confetti.svg" width="100%" alt="Vaishnavi's GitHub Streak Stats" />
   </a>
 </p>
 
