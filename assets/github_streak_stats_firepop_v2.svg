@@ -12,123 +12,65 @@
       <stop offset="50%" stop-color="#F7C3DB"/>
       <stop offset="100%" stop-color="#B07EF0"/>
     </linearGradient>
-
-    <!-- CSS KEYFRAME ANIMATIONS: SPINNER ENDS -> FIRE POPS -> FIXED -->
-    <style>
-      .card-border {
-        animation: borderPulse 4s ease-in-out infinite alternate;
-      }
-      .loader-ring {
-        transform-origin: 500px 132px;
-        animation: loaderSpin 5s ease-in-out infinite;
-      }
-      .flame-glow {
-        transform-origin: 500px 70px;
-        animation: flamePop 5s ease-out infinite;
-      }
-      .confetti-group {
-        transform-origin: 500px 132px;
-        animation: confettiBurst 5s ease-out infinite;
-      }
-      .glow-text {
-        text-shadow: 0 0 10px rgba(247, 195, 219, 0.5);
-      }
-
-      /* 1. Border Pulse */
-      @keyframes borderPulse {
-        0% { stroke-opacity: 0.6; }
-        100% { stroke-opacity: 1; filter: drop-shadow(0 0 8px #DA9EE2); }
-      }
-
-      /* 2. Loader Ring Spin (0s - 1.6s), then completes & stays fixed */
-      @keyframes loaderSpin {
-        0% { stroke-dasharray: 40 360; transform: rotate(0deg); opacity: 0.6; }
-        32% { stroke-dasharray: 400 0; transform: rotate(360deg); opacity: 1; }
-        90% { stroke-dasharray: 400 0; transform: rotate(360deg); opacity: 1; }
-        100% { stroke-dasharray: 40 360; transform: rotate(360deg); opacity: 0.6; }
-      }
-
-      /* 3. Flame is HIDDEN while spinner spins, then POPS IN at end of spin, then FIXED! */
-      @keyframes flamePop {
-        0%, 31% { opacity: 0; transform: scale(0); }
-        38% { opacity: 1; transform: scale(1.28); filter: drop-shadow(0 0 14px #FF77BC); }
-        44% { opacity: 1; transform: scale(0.95); }
-        48%, 88% { opacity: 1; transform: scale(1.0); filter: drop-shadow(0 0 6px #FF77BC); }
-        100% { opacity: 0; transform: scale(0); }
-      }
-
-      /* 4. HOLOGRAM 2 Theme Confetti Burst right when Fire Pops in! */
-      @keyframes confettiBurst {
-        0%, 36% { opacity: 0; transform: scale(0.2) rotate(0deg); }
-        43% { opacity: 1; transform: scale(1.1) rotate(15deg); }
-        56% { opacity: 0.9; transform: scale(1.3) translateY(12px) rotate(30deg); }
-        72% { opacity: 0; transform: scale(1.45) translateY(25px) rotate(45deg); }
-        100% { opacity: 0; transform: scale(0.2) rotate(0deg); }
-      }
-    </style>
   </defs>
 
   <!-- MAIN CARD BACKGROUND -->
-  <rect x="10" y="10" width="980" height="360" rx="24" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5" class="card-border"/>
+  <rect x="10" y="10" width="980" height="360" rx="24" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5"/>
 
   <!-- SOLID COLUMN DIVIDERS -->
   <line x1="330" y1="45" x2="330" y2="335" stroke="#DA9EE2" stroke-opacity="0.25" stroke-width="1.5"/>
   <line x1="670" y1="45" x2="670" y2="335" stroke="#DA9EE2" stroke-opacity="0.25" stroke-width="1.5"/>
 
   <!-- COLUMN 1: TOTAL CONTRIBUTIONS -->
-  <text x="170" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="60" fill="#F7EEFA" text-anchor="middle" class="glow-text">326</text>
+  <text x="170" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="60" fill="#F7EEFA" text-anchor="middle">326</text>
   <text x="170" y="210" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="26" fill="#DA9EE2" text-anchor="middle">Total Contributions</text>
   <text x="170" y="270" font-family="'Segoe UI', sans-serif" font-size="20" fill="#B07EF0" text-anchor="middle">Aug 2025 - Present</text>
 
-
-  <!-- COLUMN 2: CURRENT STREAK (SPINNER ENDS -> FIRE POPS -> FIXED) -->
+  <!-- COLUMN 2: CURRENT STREAK (SMIL SPINNER ENDS -> FIRE POPS -> CONFETTI) -->
   
-  <!-- ANIMATED LOADER CIRCLE RING -->
-  <circle cx="500" cy="132" r="62" fill="none" stroke="#B07EF0" stroke-width="6" stroke-linecap="round" class="loader-ring"/>
+  <!-- SMIL ANIMATED ROTATING SPINNER RING -->
+  <g transform="translate(500, 132)">
+    <path d="M -45 -45 A 64 64 0 1 0 45 -45" fill="none" stroke="#B07EF0" stroke-width="6" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
-  <!-- FLAME ICON BADGE (POPS IN AT END OF SPIN, THEN FIXED!) -->
-  <g class="flame-glow">
-    <path d="M 500 52 C 509 67 518 74 518 84 C 518 96 509 104 500 104 C 491 104 482 96 482 84 C 482 74 491 67 500 52 Z" fill="#FF77BC"/>
-    <path d="M 500 70 C 505 79 510 83 510 90 C 510 97 505 101 500 101 C 495 101 490 97 490 90 C 490 83 495 79 500 70 Z" fill="#F7C3DB"/>
+  <!-- SMIL ANIMATED FIRE POP BADGE (POPS IN AT END OF SPIN, THEN FIXED!) -->
+  <g transform="translate(500, 68)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="0; 0; 1.25; 1.0; 1.0; 0" keyTimes="0; 0.3; 0.4; 0.46; 0.88; 1" dur="4s" repeatCount="indefinite"/>
+      <path d="M 0 -18 C 9 -3 18 4 18 14 C 18 26 9 34 0 34 C -9 34 -18 26 -18 14 C -18 4 -9 -3 0 -18 Z" fill="#FF77BC"/>
+      <path d="M 0 0 C 5 9 10 13 10 20 C 10 27 5 31 0 31 C -5 31 -10 27 -10 20 C -10 13 -5 9 0 0 Z" fill="#F7C3DB"/>
+    </g>
   </g>
 
   <!-- STREAK NUMBER INSIDE RING -->
-  <text x="500" y="152" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="58" fill="#EFB5E3" text-anchor="middle" class="glow-text">3</text>
+  <text x="500" y="152" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="58" fill="#EFB5E3" text-anchor="middle">3</text>
 
-
-  <!-- HOLOGRAM 2 THEME CONFETTI BURST PARTICLES -->
-  <g class="confetti-group">
-    <!-- Top Sparkles & Diamonds -->
-    <path d="M 500 20 L 503 26 L 509 29 L 503 32 L 500 38 L 497 32 L 491 29 L 497 26 Z" fill="#F7C3DB"/>
-    <path d="M 440 45 L 444 51 L 450 55 L 444 59 L 440 65 L 436 59 L 430 55 L 436 51 Z" fill="#DA9EE2"/>
-    <path d="M 560 45 L 564 51 L 570 55 L 564 59 L 560 65 L 556 59 L 550 55 L 556 51 Z" fill="#EFB5E3"/>
-
-    <!-- Left Side Confetti -->
-    <circle cx="410" cy="90" r="5" fill="#FF77BC"/>
-    <polygon points="400,120 408,125 403,133 395,128" fill="#B07EF0"/>
-    <circle cx="415" cy="160" r="4" fill="#F7EEFA"/>
-    <polygon points="425,190 433,192 429,201 421,199" fill="#DA9EE2"/>
-
-    <!-- Right Side Confetti -->
-    <circle cx="590" cy="90" r="5" fill="#EFB5E3"/>
-    <polygon points="600,120 608,125 603,133 595,128" fill="#F7C3DB"/>
-    <circle cx="585" cy="160" r="4" fill="#B07EF0"/>
-    <polygon points="575,190 579,201 571,199" fill="#CF76E0"/>
-
-    <!-- Bottom Confetti -->
-    <path d="M 460 215 L 464 221 L 470 225 L 464 229 L 460 235 L 456 229 L 450 225 L 456 221 Z" fill="#F7EEFA"/>
-    <path d="M 540 215 L 544 221 L 550 225 L 544 229 L 540 235 L 536 229 L 530 225 L 536 221 Z" fill="#FF77BC"/>
-    <circle cx="500" cy="225" r="4" fill="#B07EF0"/>
+  <!-- SMIL ANIMATED HOLOGRAM 2 CONFETTI BURST -->
+  <g transform="translate(500, 132)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="0.2; 0.2; 1.2; 1.35; 0.2" keyTimes="0; 0.35; 0.45; 0.7; 1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; 0; 1; 0; 0" keyTimes="0; 0.35; 0.45; 0.7; 1" dur="4s" repeatCount="indefinite"/>
+      
+      <!-- Confetti Particles -->
+      <path d="M 0 -110 L 3 -104 L 9 -101 L 3 -98 L 0 -92 L -3 -98 L -9 -101 L -3 -104 Z" fill="#F7C3DB"/>
+      <path d="M -60 -85 L -56 -79 L -50 -75 L -56 -71 L -60 -65 L -64 -71 L -70 -75 L -64 -79 Z" fill="#DA9EE2"/>
+      <path d="M 60 -85 L 64 -79 L 70 -75 L 64 -71 L 60 -65 L 56 -71 L 50 -75 L 56 -79 Z" fill="#EFB5E3"/>
+      <circle cx="-90" cy="-40" r="5" fill="#FF77BC"/>
+      <polygon points="-100,-10 -92,-5 -97,3 -105,-2" fill="#B07EF0"/>
+      <circle cx="90" cy="-40" r="5" fill="#EFB5E3"/>
+      <polygon points="100,-10 108,-5 103,3 95,-2" fill="#F7C3DB"/>
+      <circle cx="0" cy="95" r="4" fill="#B07EF0"/>
+    </g>
   </g>
-
 
   <!-- LABELS UNDER CIRCLE -->
   <text x="500" y="245" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="28" fill="#F7C3DB" text-anchor="middle">Current Streak</text>
   <text x="500" y="295" font-family="'Segoe UI', sans-serif" font-size="20" fill="#B07EF0" text-anchor="middle">Aug 8 - Aug 10</text>
 
-
   <!-- COLUMN 3: LONGEST STREAK -->
-  <text x="830" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="60" fill="#F7EEFA" text-anchor="middle" class="glow-text">4</text>
+  <text x="830" y="140" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="60" fill="#F7EEFA" text-anchor="middle">4</text>
   <text x="830" y="210" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="26" fill="#DA9EE2" text-anchor="middle">Longest Streak</text>
   <text x="830" y="270" font-family="'Segoe UI', sans-serif" font-size="20" fill="#B07EF0" text-anchor="middle">Apr 17 - Apr 20</text>
 </svg>
